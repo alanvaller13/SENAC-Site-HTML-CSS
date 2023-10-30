@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NEOSTORE - Sua Loja Online - Produtos novos e usados</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/bootstrap-5.3.1-dist/css/bootstrap.css">
+        <link rel="icon" type="image/x-icon" href="img/icon.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+
+<div class="containers">
+    <img src="img/capa.png" alt="imagem" class="capa">
+</div>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <a class="nav-link" href="destaques.html">Produtos em Destaques</a>
+                  </li>
+      
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false"> Categoria </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                      <li><a class="dropdown-item" href="#">Casa, Mesa e Banho </a></li>
+                      <li><a class="dropdown-item" href="#">Móveis</a></li>
+                      <li><a class="dropdown-item" href="#">Smartfones</a></li>
+                      <li><a class="dropdown-item" href="#">Brinquedos</a></li>
+                      <li><a class="dropdown-item" href="#">Perfumaria</a></li>
+                      <li><a class="dropdown-item" href="#">Livros</a></li>
+                      <li><a class="dropdown-item" href="#">Eletrodomésticos</a></li>
+                      <li><a class="dropdown-item" href="#">Ferramentas</a></li>
+                      <li><a class="dropdown-item" href="#">Vestuário</a></li>
+                      <li><a class="dropdown-item" href="#">Importatos</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Todas as Categorias</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Revenda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mercado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="user.html">Área do Usuário</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Seus Itens Salvos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Cupons (Em Breve)</a>
+                  </li>
+                  </li>
+                  <img src="img/carrinho.png" alt="icone" class="carrinho"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  
+    </header>
+
+    <main>
+<section>
+      <form class="containers2">
+<br>
+        <h3> Contato </h3>
+        <div id="linhaH"></div>
+        <p> Entre em contato: Suporte, dicas, sugestões ou criticas, sinta-se a vontade para nos enviar uma mensagem.</p>
+        <br>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="idName" placeholder="Seu nome Completo" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="idEmail" placeholder="nome@email.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput4" class="form-label">Assunto</label>
+            <input type="assunto" class="form-control" id="idAssunto" placeholder="Sugestão, Critica ou Duvídas"
+                required>
+        </div>
+        <div class="mb-3" id="texto">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="idTextarea" rows="3" required></textarea>
+        </div>
+        <div>
+            <button type="enviar" class="btn btn-outline-primary">Enviar</button>
+        </div>
+        <br>
+
+        <h2 class="centralizado"> Para suporte direto:</h2>
+        <p class="centralizado"> Fone: (49) 99999-9999</p>
+        <p class="centralizado"> Sac: 0800-5066-5245</p>
+        <p class="centralizado"> E-mail: contato@neostore.com.br</p>
+        <p class="centralizado"> Suporte: suporte@neostore.com.br</p>
+        <p> </p>
+    </form>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Loja Virtual. Todos os direitos reservados.</p>
+        
+            <navebar>
+              <p> NEOSTORE - Sua Loja Online - Produtos novos e usados </p>
+              <h6> CNPJ n.º 01.234.567/8910-11 / R. Vereador Euclides D'Agostini - CEP 89660-00 - empresa do grupo VCompany
+              </h6>
+              <div class="d-flex p-2 flex-fill justify-content-center">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                  <div class="container-fluid justify-content-center">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Pagína Inicial</a>
+                        </li>
+                        <a class="nav-link" href="#">Produtos em Destaques</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="#">Promoções</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="#">Sobre a Empresa</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="#">Politica de Privacidade</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="#">Termos de Uso</a>
+                        </li>
+                        </li>
+                        <a class="nav-link" href="#">Trabalhe Conosco</a>
+                        </li>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+css
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+.capa {
+    width: 98%;
+    height: 70%;
+}
+
+.produtos {
+    padding: 10px;
+    margin: 20px;
+}
+
+.produto {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #333;
+    padding: 18px;
+    text-align: center;
+    color: white;
+}
+
+.carrinho {
+    margin-left: 50PX;
+    width: 2%;
+    height: 2%;
+    opacity: 0.5;
+    padding-top: 8px;
+}
+
+.containers {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 98%;
+    height: 50%;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.containers2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.carousel {
+    margin-left: 45px;
+}
+
+.col {
+    width: 50%;
+    height: 50%;
+}
+
+
+.grind div {
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    float: left;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+form{
+    font-size: 15px;
+}
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px; 
+    padding-left: 5px;
+}
+
+.item {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item:hover {
+    color: #007bff;
+}
+
+.imagem{
+    align-items: center;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    display: auto;
+    place-items: center;
+    padding: 10px;
+}
+
+.zoom{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.pag404
+{
+    text-align: center;
+    padding: 25px;
+}
+
+.voltar
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-decoration-line: none;
+    transition: background-color 1s;
+}
+
+.voltar:hover
+{
+    background-color: rgb(204, 166, 166);
+}
+
+
+#linha {
+    width: 100%;
+    border: 2px solid #333;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-color:  #333;
+    opacity: 10%;
+}
+
+#linhaH {
+    width: 100%;
+    border: 2px solid  #333;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-color:  #333;
+    opacity: 10%;
+}
